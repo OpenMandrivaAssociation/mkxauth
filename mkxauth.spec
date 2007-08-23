@@ -1,6 +1,6 @@
 %define name	mkxauth
 %define version	1.7
-%define release	%mkrel 11
+%define release	%mkrel 12
 
 Summary:	A utility for managing .Xauthority files
 Name: 		%{name}
