@@ -12,9 +12,7 @@ Url:		http://www.tummy.com/krud/packages/mkxauth.html
 Source0: 	%{name}-%{version}.tar.bz2
 BuildArch: 	noarch
 Requires: 	xauth 
-Requires: 	textutils
-Requires:	fileutils
-Requires:	sh-utils
+Requires: 	coreutils
 Requires:	procps
 Requires:	gzip
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-root
