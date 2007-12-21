@@ -15,6 +15,7 @@ Requires: 	xauth
 Requires: 	coreutils
 Requires:	procps
 Requires:	gzip
+BuildRoot: 	%{_tmppath}/%{name}-%{version}-root
 
 %description
 The mkxauth utility helps create and maintain X authentication
