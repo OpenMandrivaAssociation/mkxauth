@@ -36,15 +36,15 @@ System (a good idea).
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_bindir}
-mkdir -p $RPM_BUILD_ROOT%{_mandir}/man1
+rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_bindir}
+mkdir -p %{buildroot}%{_mandir}/man1
 
-install -m 0755 mkxauth $RPM_BUILD_ROOT%{_bindir}/mkxauth
-install -m 0444 mkxauth.1x.bz2 $RPM_BUILD_ROOT%{_mandir}/man1/mkxauth.1x.bz2
+install -m 0755 mkxauth %{buildroot}%{_bindir}/mkxauth
+install -m 0444 mkxauth.1x.bz2 %{buildroot}%{_mandir}/man1/mkxauth.1x.bz2
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
