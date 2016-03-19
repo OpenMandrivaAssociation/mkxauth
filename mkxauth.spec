@@ -1,7 +1,7 @@
 Summary:	A utility for managing .Xauthority files
 Name:		mkxauth
 Version:	1.7
-Release:	29
+Release:	30
 License:	GPLv2
 Group:		File tools
 Url:		http://www.tummy.com/krud/packages/mkxauth.html
