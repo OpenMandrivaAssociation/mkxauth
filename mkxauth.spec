@@ -4,7 +4,7 @@ Version:	1.7
 Release:	34
 License:	GPLv2
 Group:		File tools
-Url:		http://www.tummy.com/krud/packages/mkxauth.html
+Url:		https://www.tummy.com/krud/packages/mkxauth.html
 Source0:	%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 Requires:	xauth 
